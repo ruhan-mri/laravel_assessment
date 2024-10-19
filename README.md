@@ -19,7 +19,7 @@ Open your command line interface (CMD) and navigate to the `htdocs` directory of
 \xampp\htdocs
 ```
 
-Then, create a new Laravel project:
+Then, create a new Laravel project in ```Command Prompt```
 
 ```bash
 laravel new laravelUser
@@ -45,7 +45,9 @@ When prompted, choose the following options:
 ### Step 3: Create a New Database
 1. Open **phpMyAdmin** by navigating to `http://localhost/phpmyadmin` in your web browser.
 2. Create a new database named
-```laraveluser```
+```bash
+laraveluser
+```
 
 ### Step 4: Open the Project in VS Code
 Open your newly created project **laravelUser** in **Visual Studio Code**.
