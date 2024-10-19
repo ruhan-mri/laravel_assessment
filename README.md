@@ -66,7 +66,8 @@ composer require laravel/ui
 
 Once the ```laravel/ui``` package has been installed, you must install the frontend scaffolding using the ```ui``` Artisan command:
 ```bash
-composer require laravel/ui
+// Generate login / registration scaffolding...
+php artisan ui bootstrap --auth
 ```
 
 When prompted:
