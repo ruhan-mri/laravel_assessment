@@ -48,7 +48,7 @@ When prompted, choose the following options:
 ```laraveluser```
 
 ### Step 4: Open the Project in VS Code
-Open your newly created project in **Visual Studio Code**.
+Open your newly created project **laravelUser** in **Visual Studio Code**.
 
 ### Step 5: Migrate the Database
 Run the following commands in the terminal within your project directory:
@@ -95,12 +95,12 @@ php artisan storage:link
 
 ### Step 9: Serve the Application
 Finally, start the local development server:
-
 ```bash
 php artisan serve
 ```
-
-Your application should now be accessible at `http://localhost:8000`.
+Open another terminal for the ```npm run dev``` command will process the instructions in your ```vite.config.js``` file.
+```bash
+npm run dev
 ```
 
-Feel free to paste this directly into your README file! Let me know if you need any more help.
+Your application should now be accessible at `http://localhost:8000`.
