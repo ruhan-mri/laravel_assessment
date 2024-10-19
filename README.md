@@ -16,7 +16,7 @@ Follow these steps to set up the Laravel project on your local machine:
 Open your command line interface (CMD) and navigate to the `htdocs` directory of your XAMPP installation:
 
 ```bash
-cd C:\xampp\htdocs
+\xampp\htdocs
 ```
 
 Then, create a new Laravel project:
@@ -44,7 +44,7 @@ When prompted, choose the following options:
 
 ### Step 3: Create a New Database
 1. Open **phpMyAdmin** by navigating to `http://localhost/phpmyadmin` in your web browser.
-2. Create a new database named **laraveluser**.
+2. **Create a new database named ** ```laraveluser```.
 
 ### Step 4: Open the Project in VS Code
 Open your newly created project in **Visual Studio Code**.
