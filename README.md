@@ -111,7 +111,7 @@ rm public/storage
 php artisan storage:link
 ```
 
-Make sure to uncomment the line extension=gd in your php.ini file located in the \xampp\php directory.
+***Make sure to uncomment the line ```extension=gd``` in your ```php.ini``` file located in the ```\xampp\php``` directory.
 
 
 ### Step 10: Serve the Application
