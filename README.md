@@ -83,14 +83,21 @@ Run the following command to install NPM dependencies:
 npm install
 ```
 
-### Step 7: Migrate Database Again
+### Step 7: Download the provided code
+Download the provided code files and paste them into the appropriate directories of your ```laravelUser```. Ensure all necessary files are in ```replace``` for the application to function correctly.
+
+```bash
+\xampp\htdocs\laravelUser
+```
+
+### Step 8: Migrate Database Again
 Run the migration command again:
 
 ```bash
 php artisan migrate
 ```
 
-### Step 8: Create Storage Link
+### Step 9: Create Storage Link
 If the `public/storage` link already exists, remove it and recreate it:
 
 ```bash
@@ -104,8 +111,9 @@ rm public/storage
 php artisan storage:link
 ```
 
-### Step 9: Serve the Application
+### Step 10: Serve the Application
 Finally, start the local development server:
+
 ```bash
 php artisan serve
 ```
