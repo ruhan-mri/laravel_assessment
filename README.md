@@ -57,6 +57,10 @@ Run the following commands in the terminal within your project directory:
 
 ```bash
 php artisan migrate
+```
+
+The Bootstrap and Vue scaffolding provided by Laravel is located in the ```laravel/ui``` Composer package, which may be installed using Composer:
+```bash
 composer require laravel/ui
 php artisan ui bootstrap --auth
 ```
