@@ -44,7 +44,8 @@ When prompted, choose the following options:
 
 ### Step 3: Create a New Database
 1. Open **phpMyAdmin** by navigating to `http://localhost/phpmyadmin` in your web browser.
-2. **Create a new database named ** ```laraveluser```.
+2. Create a new database named
+```laraveluser```
 
 ### Step 4: Open the Project in VS Code
 Open your newly created project in **Visual Studio Code**.
